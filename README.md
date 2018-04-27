@@ -4,10 +4,10 @@ STA 663 final project, python realization of paper "Biclustering via Singular Va
 
 The package can be used to perform rank 1 approximation on high-dimension low sample size data, to detect sparse structure, select vairables, and identify possible groups/subgroups. 
 
-The package includes two functions, `SSVD` and `plotCluster`.
+The package includes two functions, `SSVD_python` and `plotCluster`.
 
-## SSVD
-`SSVD` is used to conduct first layer Singular Value Decomposition on sparse n by p matrix, especially when n<<p.
+## SSVD_python
+`SSVD_python` is used to conduct first layer Singular Value Decomposition on sparse n by p matrix, especially when n<<p.
 
 inputs:
   1. X = 2 dimensional data matrix
@@ -26,7 +26,7 @@ If not converged, print:
   "Fail to converge! Increase the max_iter!"
 
 ## plotClusters
-`plotClusters` is used to plot the biclustering using rank 1 approximation result from `SSVD` function.
+`plotClusters` is used to plot the biclustering using rank 1 approximation result from `SSVD_python` function.
 
 inputs:
     
