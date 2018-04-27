@@ -18,11 +18,5 @@ setup(
                    'Programming Language :: Python :: 3.6',
                   ],
       packages=find_packages(),
-      package_data={
-                    'BreastCancerData': ['BreastCancerData.txt'],
-                    'BreastCancerLabels': ['BreastCancerLabels.txt'],
-                    'LungCancerData': ['LungCancerData..txt'],
-
-      },
       python_requires='>=3',
       )
