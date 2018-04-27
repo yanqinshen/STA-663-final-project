@@ -3,7 +3,7 @@ from os import path
 
 setup(
       name='STA-663-final-project',
-      version=1.0,
+      version=1.5,
       description='A python realization of Biclustering via Sparse Singular Value Decomposition',
       url='https://github.com/xuetongli/STA-663-final-project',
       author='Chunxiao Li, Xuetong Li',
@@ -18,7 +18,9 @@ setup(
                   'Programming Language :: Python :: 3.5',
                    'Programming Language :: Python :: 3.6',
                   ],
+      py_modules = ['STA-663-final-project'],
       packages=find_packages(),
+      scripts = ['run_STA-663-final-project.py'],
       data_files=[('my_data', ['data/BreastCancerData.txt', 
                        'data/BreastCancerLabels.txt',
                        'data/LungCancerData.txt'])],
