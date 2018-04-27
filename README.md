@@ -1,5 +1,7 @@
 # STA-663-final-project
 
+Authors: Chunxiao Li, Xuetong Li
+
 STA 663 final project, python realization of paper "Biclustering via Singular Value Decomposition" by Mihee Lee, Haipeng Shen, Jianhua Z. Huang, and J. S. Marron.
 
 Can install from PyPI using `pip install STA-663-final-project`
