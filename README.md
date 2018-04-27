@@ -11,6 +11,7 @@ The package includes two functions, `SSVD_python` and `plotCluster`.
 Can load the functions using:
 
 `from biclustering.functions import SSVD_python`
+
 `from biclustering.functions import plotClusters`
 
 ## SSVD_python
