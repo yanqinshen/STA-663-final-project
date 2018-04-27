@@ -7,5 +7,12 @@ v_tilde = np.r_[np.array([10,-10,8,-8,5,-5]),3*np.ones(5),-3*np.ones(5),np.zeros
 v = v_tilde/np.linalg.norm(v_tilde)
 s = 50
 
+X_star = s*u@v.T
+n, d = X_star.shape
+np.random.seed(2018)
+X_sim = X_star + np.random.randn(n,d)
+
+u, s, v, niter = SSVD_python(X_sim)
+
 groups = np.concatenate((np.ones(11-3), np.ones(17)*2, np.ones(75)*3))
-plotClusters(u.reshape(-1), s, v.reshape(-1), groups, 0)
+plotClusters(u, s, v, groups, 0)
