@@ -1,4 +1,5 @@
-from bilcustering.functions import
+from biclustering.functions import SSVD_python
+from biclustering.functions import plotClusters
 
 u_tilde = np.r_[np.arange(3,11)[::-1], 2*np.ones(17), np.zeros(75)].reshape((-1,1))
 u = u_tilde/np.linalg.norm(u_tilde)
