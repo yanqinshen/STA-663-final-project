@@ -18,5 +18,8 @@ setup(
                    'Programming Language :: Python :: 3.6',
                   ],
       packages=find_packages(),
+      data_files=[('my_data', ['data/BreastCancerData.txt', 
+                       'data/BreastCancerLabels.txt',
+                       'data/LungCancerData.txt'])],
       python_requires='>=3',
       )
