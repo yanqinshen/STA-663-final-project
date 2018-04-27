@@ -2,9 +2,16 @@
 
 STA 663 final project, python realization of paper "Biclustering via Singular Value Decomposition" by Mihee Lee, Haipeng Shen, Jianhua Z. Huang, and J. S. Marron.
 
+Can install from PyPI using `pip install STA-663-final-project`
+
 The package can be used to perform rank 1 approximation on high-dimension low sample size data, to detect sparse structure, select vairables, and identify possible groups/subgroups. 
 
 The package includes two functions, `SSVD_python` and `plotCluster`.
+
+Can load the functions using:
+
+`from biclustering.functions import SSVD_python`
+`from biclustering.functions import plotClusters`
 
 ## SSVD_python
 `SSVD_python` is used to conduct first layer Singular Value Decomposition on sparse n by p matrix, especially when n<<p.
