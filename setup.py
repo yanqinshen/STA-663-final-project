@@ -7,6 +7,7 @@ setup(
       description='A python realization of Biclustering via Sparse Singular Value Decomposition',
       url='https://github.com/xuetongli/STA-663-final-project',
       author='Chunxiao Li, Xuetong Li',
+      author_email='xl222@duke.edu',
       classifiers=[
                   'Development Status :: 3 - Alpha',
                   'Intended Audience :: Developers',
