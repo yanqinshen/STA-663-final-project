@@ -3,7 +3,7 @@ from sparsesvd import sparsesvd
 from scipy.sparse import csc_matrix
 import seaborn as sns; sns.set()
 
-def SSVD(X, gamma1 = 2, gamma2 = 2, tol = 1e-4, max_iter = 100):
+def SSVD_python(X, gamma1 = 2, gamma2 = 2, tol = 1e-4, max_iter = 100):
     """SSVD for first layer with python optimization
     
     X = data matrix
