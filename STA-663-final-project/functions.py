@@ -93,7 +93,7 @@ def SSVD(X, gamma1 = 2, gamma2 = 2, tol = 1e-4, max_iter = 100):
     return(np.ravel(u), s, np.ravel(v), niter)
     
     
-    def plotClusters(u, s, v, group, tresh):
+def plotClusters(u, s, v, group, tresh):
     """Plotting Clusters for rank 1 approximation
     
     u, s, v = return values of SSVD function
