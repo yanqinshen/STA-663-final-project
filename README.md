@@ -4,6 +4,8 @@ STA 663 final project, python realization of paper "Biclustering via Singular Va
 
 Can install from PyPI using `pip install STA-663-final-project`
 
+Note: if `sparsesvd` module is not installed, run `pip install sparsesvd` first.
+
 The package can be used to perform rank 1 approximation on high-dimension low sample size data, to detect sparse structure, select vairables, and identify possible groups/subgroups. 
 
 The package includes two functions, `SSVD_python` and `plotCluster`.
